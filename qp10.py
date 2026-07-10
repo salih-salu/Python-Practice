@@ -7,3 +7,7 @@ if last_dt%3 == 0:
     print(f'Yes, The Last digit {last_dt} from then number {num} is divisible by 3')
 else:
     print(f'No, The Last digit {last_dt} from then number {num} is not divisible by 3')
+    
+
+
+
