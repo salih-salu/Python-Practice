@@ -12,3 +12,4 @@ if percent < 75:
     print(percent, '%, The student will not be able to attend the exam')
 else:
     print(percent, '%, The student will able to attend the exam')
+    
