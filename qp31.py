@@ -10,6 +10,3 @@ if num == result:
     print(f'Yes, {num} is a perfect number')
 else:
     print(f'No, {num} is not a perfect number')
-
-
-
