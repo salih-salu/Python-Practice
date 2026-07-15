@@ -11,3 +11,4 @@ else:
         res = str(rem)+res
         num = num // 2
     print(int(res))
+    
