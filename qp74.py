@@ -6,4 +6,4 @@ words = st.split()
 new_words = [word[::-1] for word in words]
 
 result = ' '.join(new_words)
-print(result)
+print(result) 
