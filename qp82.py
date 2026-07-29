@@ -1,15 +1,7 @@
-# 82. Enter a string with more than 3 characters. Then find reverse
+# 82. Enter a string with more than 3 characters. Then find reverse without changing first and last character 
+# eg:python--->pohtyn 
 
-string = input('Enter the string: ')
+st = input('Enter the string: ')
+result = st[0]+st[1:-1][::-1]+st[-1]
 
-
-st = ''
-for i in range(len(string)-1, -1, -1):
-    st = st + string[i]
-print(st)
-
-
-
-# version 2......................................................................
-
-print(string[::-1])
+print(result)
