@@ -21,4 +21,4 @@ st = int(input('enter the number of elements both list: '))
 ls1 = []
 ls2 = []
 input_list(st, ls1, ls2)
-print(fun(ls1, ls2))
+print(fun(ls1, ls2)) 
